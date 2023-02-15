@@ -25,6 +25,10 @@ public:
     }
 
     void printList(){
+        cout << "--------------------------------------------------------\n";
+        cout << "PERSON LIST:" << "\n";
+        cout << "--------------------------------------------------------\n";
+
         for(Person p : listin){
             p.print();
         }
@@ -38,6 +42,9 @@ public:
     }
 
     void printAgeList(int age){
+        cout << "--------------------------------------------------------\n";
+        cout << "PERSON LIST with AGE : " << age << "\n";
+        cout << "--------------------------------------------------------\n";
         for(Person person : listin)
             if(person.getAge() == age)
                 person.print();
