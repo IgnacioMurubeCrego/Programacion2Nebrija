@@ -25,6 +25,7 @@ int main()
     list.add(p1);
     list.add(p2);
     list.add(p3);
+    list.printList();
     list.printAgeList(19);
     return 0;
 }
